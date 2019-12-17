@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="display()" name="CLICK" value="CLICK"></button>
+<p id="displaying"></p>
+<p id="dynamicone"></p>
+<p id="dynamictwo"></p>
+<script>
+
+    function display() {
+        document.getElementById("displaying").innerHTML = "Button has been clicked";
+    }
+
+    var name = 10;
+    document.getElementById("dynamicone").innerHTML = name;
+    var name = "Maggie Mwaura";
+    document.getElementById("dynamictwo").innerHTML = name;
+</script>
+</body>
+</html>
